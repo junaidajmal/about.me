@@ -1,3 +1,9 @@
-h1 h2 h3{
-    text-align: center;
+body {
+    background: white center;
+}
+.header {
+       display: flex;
+}
+.dp {
+    height: 150px;
 }
