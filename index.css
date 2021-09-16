@@ -1,9 +1,20 @@
 body {
-    background: white center;
+    margin: 20px;
 }
-.header {
-       display: flex;
+
+.cover {
+    display: flex;
+    border: 3px;
 }
-.dp {
-    height: 150px;
+
+.dp{
+    height: 200px;
+    display: block;
 }
+
+h1 {
+    text-transform: uppercase;
+    height: 32px;
+    display: block; 
+}
+
