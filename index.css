@@ -20,7 +20,8 @@ body {
     font-family: monospace;
     letter-spacing: 5px;
     font-weight: lighter;
-    height: 30px;
+    font-size: 30px;
+    margin: 0px;
 }
 
 .subtitle {
@@ -28,6 +29,11 @@ body {
     font-family: monospace;
     letter-spacing: 5px;
     font-weight: lighter;
+    margin: 0px;
+    }
+
+.tns {
+    text-align: right;
 }
 
 h1 {
