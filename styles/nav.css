@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+li {
+    display: block;
+}
+a{
+    font-family: monospace;
+    letter-spacing: 5px;
+    padding: 0px 3px;
+    text-decoration: none;
+}
+
+a.home_button {
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    align-content: center;
+}
+
+a.about_button {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    align-content: center;
+}
+
+a.contact_button {
+    text-decoration: none;
+    color: black;
+    background-color: green;
+    align-content: center;
+}
+
+a.home_button:hover{
+    color: red;
+    background-color: black;
+}
+
+a.about_button:hover{
+    color: yellow;
+    background-color: black;
+}
+
+a.contact_button:hover{
+    color: green;
+    background-color: black;
+}
