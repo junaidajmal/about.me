@@ -1,3 +1,3 @@
 # about.me
-Resume
+Portfolio
 Jadu Jobs Assignment
