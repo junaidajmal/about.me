@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+nav{
+    background-color: #74ee15;
+}
+
 .container{
     margin:  5px 20px;
     border: 3px solid black;
@@ -14,7 +18,7 @@ body{
 }
 
 .content {
-    background-color: whitesmoke;
+    background-color: #74ee15;
     height: 100vh;
     padding-top: 50px;
 }
@@ -60,7 +64,7 @@ label{
 
 input, textarea{
     color: black;
-    background-color: skyblue;
+    background-color: black;
     font-family: monospace;
     letter-spacing: 5px;
     font-size: 20px;
