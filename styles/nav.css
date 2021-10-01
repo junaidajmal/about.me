@@ -5,11 +5,13 @@
 
 nav{
     background-color: whitesmoke;
+    margin:  5px 20px;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 
 nav ul{
     display: flex;
