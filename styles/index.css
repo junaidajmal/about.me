@@ -87,7 +87,7 @@ img.social_medium{
 .social_twitter{
     display: flex;
     align-items: center;
-    background-color: yellow;
+    background-color: #ffee00;
     padding: 2px;
     font-size: 20px;
 }
@@ -95,7 +95,7 @@ img.social_medium{
 .social_medium{
     display: flex;
     align-items: center;
-    background-color: green;
+    background-color: #74ee15;
     padding: 2px;
     font-size: 20px;
 }
@@ -112,12 +112,12 @@ a.social_facebook:hover{
 }
 
 a.social_twitter:hover{
-    color: yellow;
+    color: #ffee00;
     background-color:black;
 }
 
 a.social_medium:hover{
-    color: green;
+    color: #74ee15;
     background-color:black;
 }
 

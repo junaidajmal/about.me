@@ -39,14 +39,14 @@ a.home_button {
 a.about_button {
     text-decoration: none;
     color: black;
-    background-color: yellow;
+    background-color: #ffee00;
     align-content: center;
 }
 
 a.contact_button {
     text-decoration: none;
     color: black;
-    background-color: green;
+    background-color: #74ee15;
     align-content: center;
 }
 
@@ -61,6 +61,6 @@ a.about_button:hover{
 }
 
 a.contact_button:hover{
-    color: green;
+    color: #74ee15;
     background-color: black;
 }

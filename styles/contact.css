@@ -29,7 +29,7 @@ header{
 
 .header_title{
     text-transform: uppercase;
-    color: green;
+    color: #74ee15;
     font-family: monospace;
     letter-spacing: 5px;
     font-size: 25px;
@@ -37,7 +37,7 @@ header{
 
 .header_title:hover{
     color: black;
-    background-color: green;
+    background-color: #74ee15;
 }
 
 

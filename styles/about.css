@@ -27,7 +27,7 @@ header{
 
 .header_title{
     text-transform: uppercase;
-    color: yellow;
+    color: #ffee00;
     font-family: monospace;
     letter-spacing: 5px;
     font-size: 25px;
@@ -35,5 +35,5 @@ header{
 
 .header_title:hover{
     color: black;
-    background-color: yellow;
+    background-color: #ffee00;
 }
