@@ -63,7 +63,7 @@ label{
 
 
 input, textarea{
-    color: black;
+    color: white;
     background-color: black;
     font-family: monospace;
     letter-spacing: 5px;
@@ -80,3 +80,12 @@ input, textarea{
     opacity: 40%;
 }
 
+input:focus{
+    background-color: #74ee15;
+    color: black;
+}
+
+textarea:focus{
+    background-color: #74ee15;
+    color: black;
+}
