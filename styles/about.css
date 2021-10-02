@@ -7,9 +7,13 @@ nav{
     background-color: #74ee15;
 }
 
-.container{
-    margin:  5px 20px;
+nav:hover{
     border: 3px solid black;
+}
+
+.container{
+    margin:  3px 20px;
+    border: 1px dotted black;
     background-color: #74ee15;
 }
 
@@ -26,6 +30,7 @@ header{
     display: block;
     text-align: center;
     padding: 10px;
+    margin: 5px;
     position: relative;
 }
 
@@ -35,11 +40,13 @@ header{
     font-family: monospace;
     letter-spacing: 5px;
     font-size: 25px;
+    border: 3px solid black;
 }
 
 .header_title:hover{
     color: black;
     background-color: #74ee15;
+    border: 3px dotted black;
 }
 
 p{
@@ -50,7 +57,7 @@ p{
     margin: 50px 250px;
     background-color: white;
     text-align: justify;
-    border: 1px solid white;
+    border: 3px solid white;
     padding: 10px;
 }
 
@@ -60,5 +67,5 @@ p a{
 }
 
 p:hover{
-    border: 1px solid black;
+    border: 3px dotted #74ee15;
 }

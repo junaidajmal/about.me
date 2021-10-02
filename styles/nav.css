@@ -4,11 +4,12 @@
 }
 
 nav{
-    margin:  5px 20px;
+    margin:  10px 20px 0px;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border: 3px dotted royalblue;
 }
 
 
