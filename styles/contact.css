@@ -127,6 +127,8 @@ textarea{
 input:focus{
     background-color: orange;
     color: black;
+    outline: none;
+    border: 1px solid black;
 }
 
 input:hover{
@@ -136,6 +138,8 @@ input:hover{
 textarea:focus{
     background-color: orange;
     color: black;
+    outline: none;
+    border: 1px solid black;
 }
 
 textarea:hover{
