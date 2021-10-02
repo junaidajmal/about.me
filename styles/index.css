@@ -6,7 +6,7 @@
 .container{
     margin:  5px 20px;
     border: 3px solid black;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 body{
@@ -14,40 +14,56 @@ body{
 }
 
 .content {
-    background-color: whitesmoke;
+    background-color: #ffee00;
     height: 100vh;
 }
 
 .display_photo{
     height: 150px;
     border-radius: 50%;
+    z-index: 99;
+    position: absolute;
+    border: 3px solid black;
+    left: 45%;
+    background-color: skyblue;
+}
+
+.display_photo:hover{
+    border: 3px solid black;
+    background-color: #ffee00;
 }
 
 header{
     background-color: black;
     display: flex;
     padding: 10px;
+    justify-content: space-between;
     position: relative;
 }
 
 .header_content {
     display: flex;
     flex-direction: column;
-    text-align: right;
+    justify-content:flex-start;
 }
 
 .header_title {
     text-transform: uppercase;
-    color: #74ee15;
+    color: #ffee00;
     font-family: monospace;
     letter-spacing: 5px;
-    font-weight: lighter;
+    font-weight:bolder;
     font-size: 40px;
     margin: 0px;
 }
 
+.header_title:hover{
+    color: white;
+}
+
 .header_description{
-    color: #ffee00;
+    text-transform: uppercase;
+    color: #74ee15;
     font-family: monospace;
     letter-spacing: 5px;
     font-weight: lighter;
@@ -79,7 +95,7 @@ img.social_medium{
 .social_facebook{
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: #ffee00;
     padding: 2px;
     font-size: 20px;
 }
@@ -87,7 +103,7 @@ img.social_medium{
 .social_twitter{
     display: flex;
     align-items: center;
-    background-color: #ffee00;
+    background-color: #74ee15;
     padding: 2px;
     font-size: 20px;
 }
@@ -95,7 +111,7 @@ img.social_medium{
 .social_medium{
     display: flex;
     align-items: center;
-    background-color: #74ee15;
+    background-color: orange;
     padding: 2px;
     font-size: 20px;
 }
@@ -107,22 +123,39 @@ a{
 }
 
 a.social_facebook:hover{
-    color: red;
-    background-color:black;
-}
-
-a.social_twitter:hover{
     color: #ffee00;
     background-color:black;
 }
 
-a.social_medium:hover{
+a.social_twitter:hover{
     color: #74ee15;
     background-color:black;
 }
 
-.in_process {
-    box-shadow: 10px 30px 0 0 rgba(0, 0, 0, 1), 20px 30px 0 0 rgba(0, 0, 0, 1), 30px 30px 0 0 rgba(0, 0, 0, 1), 100px 30px 0 0 rgba(0, 0, 0, 1), 110px 30px 0 0 rgba(0, 0, 0, 1), 120px 30px 0 0 rgba(0, 0, 0, 1), 20px 40px 0 0 rgba(0, 0, 0, 1), 100px 40px 0 0 rgba(0, 0, 0, 1), 120px 40px 0 0 rgba(0, 0, 0, 1), 20px 50px 0 0 rgba(0, 0, 0, 1), 50px 50px 0 0 rgba(0, 0, 0, 1), 60px 50px 0 0 rgba(0, 0, 0, 1), 70px 50px 0 0 rgba(0, 0, 0, 1), 100px 50px 0 0 rgba(0, 0, 0, 1), 110px 50px 0 0 rgba(0, 0, 0, 1), 120px 50px 0 0 rgba(0, 0, 0, 1), 140px 50px 0 0 rgba(0, 0, 0, 1), 150px 50px 0 0 rgba(0, 0, 0, 1), 170px 50px 0 0 rgba(0, 0, 0, 1), 180px 50px 0 0 rgba(0, 0, 0, 1), 190px 50px 0 0 rgba(0, 0, 0, 1), 210px 50px 0 0 rgba(0, 0, 0, 1), 220px 50px 0 0 rgba(0, 0, 0, 1), 230px 50px 0 0 rgba(0, 0, 0, 1), 250px 50px 0 0 rgba(0, 0, 0, 1), 260px 50px 0 0 rgba(0, 0, 0, 1), 270px 50px 0 0 rgba(0, 0, 0, 1), 300px 50px 0 0 rgba(0, 0, 0, 1), 310px 50px 0 0 rgba(0, 0, 0, 1), 340px 50px 0 0 rgba(0, 0, 0, 1), 350px 50px 0 0 rgba(0, 0, 0, 1), 20px 60px 0 0 rgba(0, 0, 0, 1), 50px 60px 0 0 rgba(0, 0, 0, 1), 70px 60px 0 0 rgba(0, 0, 0, 1), 100px 60px 0 0 rgba(0, 0, 0, 1), 140px 60px 0 0 rgba(0, 0, 0, 1), 170px 60px 0 0 rgba(0, 0, 0, 1), 190px 60px 0 0 rgba(0, 0, 0, 1), 210px 60px 0 0 rgba(0, 0, 0, 1), 250px 60px 0 0 rgba(0, 0, 0, 1), 260px 60px 0 0 rgba(0, 0, 0, 1), 270px 60px 0 0 rgba(0, 0, 0, 1), 290px 60px 0 0 rgba(0, 0, 0, 1), 330px 60px 0 0 rgba(0, 0, 0, 1), 20px 70px 0 0 rgba(0, 0, 0, 1), 50px 70px 0 0 rgba(0, 0, 0, 1), 70px 70px 0 0 rgba(0, 0, 0, 1), 100px 70px 0 0 rgba(0, 0, 0, 1), 140px 70px 0 0 rgba(0, 0, 0, 1), 170px 70px 0 0 rgba(0, 0, 0, 1), 190px 70px 0 0 rgba(0, 0, 0, 1), 210px 70px 0 0 rgba(0, 0, 0, 1), 250px 70px 0 0 rgba(0, 0, 0, 1), 300px 70px 0 0 rgba(0, 0, 0, 1), 310px 70px 0 0 rgba(0, 0, 0, 1), 340px 70px 0 0 rgba(0, 0, 0, 1), 350px 70px 0 0 rgba(0, 0, 0, 1), 10px 80px 0 0 rgba(0, 0, 0, 1), 20px 80px 0 0 rgba(0, 0, 0, 1), 30px 80px 0 0 rgba(0, 0, 0, 1), 50px 80px 0 0 rgba(0, 0, 0, 1), 70px 80px 0 0 rgba(0, 0, 0, 1), 100px 80px 0 0 rgba(0, 0, 0, 1), 140px 80px 0 0 rgba(0, 0, 0, 1), 170px 80px 0 0 rgba(0, 0, 0, 1), 180px 80px 0 0 rgba(0, 0, 0, 1), 190px 80px 0 0 rgba(0, 0, 0, 1), 210px 80px 0 0 rgba(0, 0, 0, 1), 220px 80px 0 0 rgba(0, 0, 0, 1), 230px 80px 0 0 rgba(0, 0, 0, 1), 250px 80px 0 0 rgba(0, 0, 0, 1), 260px 80px 0 0 rgba(0, 0, 0, 1), 270px 80px 0 0 rgba(0, 0, 0, 1), 290px 80px 0 0 rgba(0, 0, 0, 1), 310px 80px 0 0 rgba(0, 0, 0, 1), 330px 80px 0 0 rgba(0, 0, 0, 1), 350px 80px 0 0 rgba(0, 0, 0, 1), 370px 80px 0 0 rgba(0, 0, 0, 1), 390px 80px 0 0 rgba(0, 0, 0, 1), 410px 80px 0 0 rgba(0, 0, 0, 1);
-    height: 10px;
-    width: 10px;
-  }
+a.social_medium:hover{
+    color: orange;
+    background-color:black;
+}
+
+p{
+    font-family: monospace;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin: 100px 250px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+p a{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+p:hover{
+    border: 1px solid black;
+}
+
+  
