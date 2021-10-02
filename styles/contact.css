@@ -22,9 +22,11 @@ body{
 }
 
 .content {
+    display: flex;
     background-color: orange;
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 30px;
+    justify-content: center;
 }
 
 header{
@@ -56,9 +58,33 @@ form{
     display: flex;
     flex-direction: column;
     font-weight: bolder;
-    text-transform: uppercase;    
-    align-items: center;
+    text-transform: uppercase;
     gap: 10px;
+    width: 500px;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+form input[type="submit"] {
+    color: orange;
+    background-color: black;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 250px;
+    border: 3px solid orange;
+}
+
+form input[type="submit"]:hover {
+    color: black;
+    background-color: white;
+    border: 3px solid orange;
+    
 }
 
 label{
@@ -69,7 +95,7 @@ label{
 }
 
 
-input, textarea{
+input{
     color: black;
     background-color: white;
     font-family: monospace;
@@ -77,9 +103,20 @@ input, textarea{
     font-size: 20px;
     border: 1px solid orange; 
     padding: 10px;
-    width: 50vh;
+    width: 350px;   
+}
+
+textarea{
+    color: black;
+    background-color: white;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-size: 20px;
+    border: 1px solid orange; 
+    padding: 10px;
+    width: 500px;
+    height: 200px;
     resize: none;
-    
 }
 
 ::placeholder{

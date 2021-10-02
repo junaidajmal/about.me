@@ -22,24 +22,42 @@
         </header>
         <div class="content">
             <form>
-                <div class="name"><label for="name">Your Name</label>
-                <input
-                id="name"
-                name="name"
-                type="text"
-                placeholder="Junaid Ajmal"
-                /></div>
-                <div><label for="email">Your Email</label>
-                <input
-                id="email"
-                name="email"
-                type="email"
-                placeholder="yourname@example.com"
-                /></div>
-                <div><label for="message">Message</label>
-                <textarea placeholder="Your Message..." rows="10" cols="40"></textarea>
+                <div>
+                  <label for="name">Name</label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Junaid Ajmal"
+                  />
                 </div>
-                </form>
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="junaid@gmail.com"
+                  />
+                </div>
+                <div>
+                  <label for="subject">Subject</label>
+                  <input
+                    id="subject"
+                    name="subject"
+                    type="subject"
+                    placeholder="Enquiry"
+                  />
+                </div>
+        
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Hi! there..."
+                ></textarea>
+        
+                <input type="submit" value="Send Message" />
+              </form>
         </div>
     </div>
     </body>
