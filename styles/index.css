@@ -15,6 +15,7 @@ nav:hover{
     margin:  3px 20px;
     border: 1px dotted black;
     background-color: #ffee00;
+    width: auto;
 }
 
 body{
