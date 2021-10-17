@@ -188,4 +188,8 @@ p:hover{
     100% {background-color: #ffee00;}
 }
 
+@media only screen and (max-width: 350px){
+    .social_buttons{
+        display: none;
+}
   
